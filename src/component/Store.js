@@ -1,4 +1,4 @@
-import { writable } from "svelte/store";
+
 import Nails from "../image/productImg/nails.webp";
 import hammer from "../image/productImg/Hammer.png";
 import Measuringtape from "../image/productImg/Measuring Tape.png";
@@ -29,7 +29,7 @@ import Flashlight from "../image/productImg/Flashlight.png";
 import Hexkeys from "../image/productImg/Hex Keys.png";
 import WireCutter from "../image/productImg/Wire Cutter.png";
 import SledgeHammer from "../image/productImg/Sledgehammer.png";
-export const PRODUCTS = writable([
+export const PRODUCTS = [
   {
     img:Nails,
     productName: "Nails",
@@ -240,7 +240,4 @@ export const PRODUCTS = writable([
     description: "Heavy-duty sledgehammer for demolition.",
     brand: "HammerForce",
   },
-]);
-
-export const purchases = writable([]);
-export const sales = writable([]);
+];

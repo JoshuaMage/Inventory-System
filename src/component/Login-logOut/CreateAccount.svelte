@@ -32,8 +32,7 @@
 </main>
 
 <style>
-  @import "../css/Signup.css";
-
+  @import "../../../css/Signup.css";
   .signUpForm {
     background-image: url("https://wallpaperaccess.com/full/4255421.jpg");
     background-size: cover;

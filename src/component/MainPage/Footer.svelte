@@ -12,7 +12,7 @@
 
 <style>
   main {
-    background-color: #ffb200;
+    background-color: #EEEDED;
     height: 7rem;
     display: flex;
     justify-content: center;

@@ -1,11 +1,12 @@
 <script>
   import { PRODUCTS } from "../Store";
-  import Footer from "./Footer.svelte";
+
+
 
   function handleIntersection(entries) {
     entries.forEach((entry) => {
       entry.target.style.opacity = entry.isIntersecting ? "1" : "0";
-      entry.target.style.transition = "opacity 1.5s ease-in-out";
+      entry.target.style.transition = "opacity 1s ease-in-out";
     });
   }
 
@@ -25,7 +26,7 @@
 
 <main>
   <div class="product-list">
-    {#each $PRODUCTS as PRODUCT}
+    {#each PRODUCTS as PRODUCT}
       <section class="product-detail" use:observeIntersection>
         <img src={PRODUCT.img} alt={PRODUCT.productName} />
         <section>
@@ -38,7 +39,7 @@
     {/each}
   </div>
 </main>
-<Footer />
+
 
 <style>
  @import "../../css/product.css";

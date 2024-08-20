@@ -40,7 +40,7 @@
       {/each}
     </div>
   </main>
-  <Footer />
+
   
   <style>
 @import "../../css/product.css";

@@ -1,6 +1,6 @@
 <script>
     import { PRODUCTS } from "../Store";
-    import Footer from "../MainPage/Footer.svelte";
+
   
     function handleIntersection(entries) {
       entries.forEach((entry) => {
@@ -40,7 +40,7 @@
       {/each}
     </div>
   </main>
-  <Footer />
+  
   
   <style>
 @import "../../css/product.css";

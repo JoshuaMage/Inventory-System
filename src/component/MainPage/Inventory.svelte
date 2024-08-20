@@ -1,3 +1,11 @@
+<script>
+  import MaterialList from "../InventoryToggle/Material-List.svelte";
+</script>
+
 <main>
-    <h1>Inventory</h1>
+<MaterialList />
 </main>
+
+<style>
+
+</style>

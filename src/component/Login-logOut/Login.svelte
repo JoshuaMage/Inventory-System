@@ -1,7 +1,7 @@
 <script>
   import ComLogo from "../image/Hardwarelogo.png";
   import Loginform from "./Loginform.svelte";
-  import MainLayout from "./MainLayout.svelte";
+
 
   let showLogin = true;
   let showForm = false;
@@ -82,7 +82,7 @@
 </main>
 
 <style>
-  @import "../css/Signup.css";
+  @import "../../../css/Signup.css";
 
   .signUpForm {
     background-image: url("https://wallpaperaccess.com/full/4255421.jpg");
